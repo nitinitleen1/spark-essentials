@@ -92,7 +92,4 @@ carsDF.select(
   // distinct
   val allCoutriesDF = carsDF.select("Origin").distinct()
 allCoutriesDF.show()
-
-
-
 }
